@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="Tab 1 Setting"
+   android:title="TAB 1" >
+  <EditTextPreference
+     android:key="t1_name"
+     android:title="Tab Name"
+     
+      />
+  <!--android:defaultValue="Dashboard"-->
+  <EditTextPreference
+     android:key="t1_url"
+     android:summary="Enter the URL"
+     android:title="URL"
+      />
+  <EditTextPreference
+     android:key="t1_user"
+     android:title="Username"
+     
+      />
+  <EditTextPreference
+     android:key="t1_pass"
+     android:title="Password"
+     
+      />
+  <!-- android:defaultValue="live.novopay.in"-->
+ </PreferenceCategory>
+
+ <PreferenceCategory
+   android:summary="Tab 2 Setting"
+   android:title="TAB 2" >
+  <EditTextPreference
+     android:key="t2_name"
+     android:title="Tab Name"
+      />
+  <EditTextPreference
+     android:key="t2_url"
+     android:summary="Enter the URL"
+     android:title="URL"
+      />
+  <EditTextPreference
+     android:key="t2_user"
+     android:title="Username"
+     
+      />
+  <EditTextPreference
+     android:key="t2_pass"
+     android:title="Password"
+     
+      />
+ </PreferenceCategory>
+ <PreferenceCategory
+   android:summary="Tab 3 Setting"
+   android:title="TAB 3" >
+  <EditTextPreference
+     android:key="t3_name"
+     android:title="Tab Name"
+      />
+  <EditTextPreference
+     android:key="t3_url"
+     android:summary="Enter the URL"
+     android:title="URL"
+      />
+  <EditTextPreference
+     android:key="t3_user"
+     android:title="Username"
+     
+      />
+  <EditTextPreference
+     android:key="t3_pass"
+     android:title="Password"
+     
+      />
+ </PreferenceCategory>
+ <PreferenceCategory
+   android:summary="Tab 4 Setting"
+   android:title="TAB 4" >
+  <EditTextPreference
+     android:key="t4_name"
+     android:title="Tab Name"
+      />
+  <EditTextPreference
+     android:key="t4_url"
+     android:summary="Enter the URL"
+     android:title="URL"
+      />
+  <EditTextPreference
+     android:key="t4_user"
+     android:title="Username"
+     
+      />
+  <EditTextPreference
+     android:key="t4_pass"
+     android:title="Password"
+     
+      />
+ </PreferenceCategory>
+</PreferenceScreen>

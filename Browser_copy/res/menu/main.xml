@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/url"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/hidetab"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hide Tabs"
+        />
+    <item
+        android:id="@+id/showtab"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Show Tabs"
+        />
+   <!-- <item
+        android:id="@+id/hidetab"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hide Tabs"
+        />
+   <item
+        android:id="@+id/hidetab113"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hide Tabs"
+        />
+    <item
+        android:id="@+id/hidetab13"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hide Tabs"
+        />
+    <item
+        android:id="@+id/hidetab12"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hide Tabs"
+        />
+    <item
+        android:id="@+id/hidetab11"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hide Tabs"
+        />
+    <item
+        android:id="@+id/hidetab1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hide Tabs"
+        />-->
+   
+    
+
+</menu>
