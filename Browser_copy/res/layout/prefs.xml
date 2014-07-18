@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <ListPreference
+     android:entries="@array/listOptions"
+     android:entryValues="@array/listValues"
+     android:key="listpref"
+     android:summary="Tab Circulation Speed"
+     android:title="Speed" />
+ 
  <PreferenceCategory
    android:summary="Tab 1 Setting"
    android:title="TAB 1" >

@@ -39,7 +39,8 @@ public class MainActivity extends TabActivity {
        // that will be opened when particular Tab will be selected
         SharedPreferences prefs = PreferenceManager
         	    .getDefaultSharedPreferences(MainActivity.this);
-
+        String listPrefs = prefs.getString("listpref", "15000");
+        final int speed = Integer.parseInt(listPrefs);
         //Setting tab name and content for 1st tab
         String tab_text = prefs.getString("t1_name", "Default Tab");
         tab1.setIndicator(tab_text);
@@ -85,7 +86,7 @@ public class MainActivity extends TabActivity {
     	    	while(true)
     			{	
     				try {
-						Thread.sleep(20000);
+						Thread.sleep(speed);
 					} catch (InterruptedException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
